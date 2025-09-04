@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=390, user-scalable=no" />
+  <title>Perfil da Isabella</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: white;
+      max-width: 390px;
+      margin: 0 auto;
+    }
+
+    header {
+      background: rgb(202, 202, 202);
+      border: 2px solid gray;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 5px 3px 3px rgb(217, 214, 214);
+      text-align: center;
+    }
+
+    header img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      border: 2px solid black;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    header a {
+      display: inline-block;
+      margin: 5px 10px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+
+    header a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 20px 10px;
+      text-align: center;
+    }
+
+    .inicio, .Pessoas {
+      background: white;
+      border: 2px solid gray;
+      border-radius: 10px;
+      box-shadow: 5px 5px 5px rgb(7, 7, 7);
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px 10px;
+    }
+
+    .profile-img {
+      border: 2px solid black;
+      border-radius: 50%;
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .about-img {
+      border: 5px solid white;
+      border-radius: 30%;
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    #informações, #informação {
+      text-align: justify;
+      font-size: 14px;
+    }
+
+    h2 {
+      font-size: 22px;
+      margin-bottom: 10px;
+      color: white;
+    }
+
+    .lembraanças {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .imagem {
+      width: 160px;
+      height: 160px;
+      border: 3px solid rgb(38, 38, 38);
+      border-radius: 15px;
+      background-size: cover;
+      background-position: center;
+    }
+
+    #imagem1 {
+      background-image: url("./Olimpiadas\ 2k24.jpeg");
+    }
+
+    #imagem2 {
+      background-image: url("./Family.jpeg");
+    }
+
+    #imagem3 {
+      background-image: url("./eu\ e\ ana\ banana\ de\ novo.jpeg");
+    }
+
+    #imagem4 {
+      background-image: url("./Me\ baby.jpeg");
+    }
+
+    /* Seção de fundo */
+    #Início {
+      background-color: rgb(93, 92, 92);
+      color: rgb(8, 3, 3);
+    }
+
+    #Lembranças {
+      background-color: rgba(18, 18, 18, 0.9);
+      color: rgb(255, 249, 249);
+    }
+
+    #sobre_mim {
+      background-color: rgba(16, 15, 15, 0.9);
+      color: rgb(0, 0, 0);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="./my life.jpg" alt="Foto de perfil" />
+    <div>
+      <a href="#Início">Início</a>
+      <a href="#Lembranças">Lembranças</a>
+      <a href="#sobre_mim">Sobre mim</a>
+    </div>
+  </header>
+
+  <section id="Início">
+    <div class="inicio">
+      <img class="profile-img" src="./my face.jpeg" alt="Foto de perfil" />
+      <div id="informações">
+        <p><strong>Nome:</strong> Isabella Pierezan Soto</p>
+        <p><strong>Profissão:</strong> Estudante</p>
+        <p><strong>Origem:</strong> 🌴 Ponta Porã/MS</p>
+        <p><strong>Idade:</strong> 15</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="Lembranças">
+    <h2>Lembranças</h2>
+    <div class="lembraanças">
+      <div id="imagem1" class="imagem"></div>
+      <div id="imagem2" class="imagem"></div>
+      <div id="imagem3" class="imagem"></div>
+      <div id="imagem4" class="imagem"></div>
+    </div>
+  </section>
+
+  <section id="sobre_mim">
+    <h2>Sobre mim</h2>
+    <div class="Pessoas">
+      <img class="about-img" src="./vôlei de areia.jpeg" alt="Sobre mim" />
+      <div id="informação">
+        <p>
+          Gosto que me chamem de Bella. Sou uma pessoa determinada em tudo que gosto de fazer. Tenho uma paixão enorme
+          por esportes, principalmente vôlei. Meus hobbies incluem jogar, desenhar, cantar e muito mais. Adoro animais:
+          meus favoritos são cachorros, panteras, corujas e raposas. Amo flores, especialmente girassóis.
+          <br /><br />
+          Apesar de ser explosiva e me irritar com facilidade, sou uma pessoa tranquila. Minha jornada no esporte
+          começou em 2023, quando entrei no colégio da FAP, meu primeiro internato. Aprendi com amigos, melhorei e fui
+          chamada para três seleções — o dia mais feliz da minha vida! 😊
+        </p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
